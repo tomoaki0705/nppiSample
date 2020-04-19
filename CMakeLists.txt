@@ -7,6 +7,9 @@ set(TARGET_NAME nppSample)
 # solution name
 project(${TARGET_NAME})
 
+# use C++11
+set(CMAKE_CXX_STANDARD 11)
+
 if(MSVC)
     add_definitions("/wd4265 /wd4266 /wd4350 /wd4365 /wd4435 /wd4514 /wd4625 /wd4626 /wd4640 /wd4668 /wd4710 /wd4819 /wd4820 /wd4946")
 endif(MSVC)
